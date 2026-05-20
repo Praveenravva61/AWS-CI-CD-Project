@@ -18,10 +18,10 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-name='mlproject',
+name='AWS_EC2_Deployement',
 version='0.0.1',
-author='Krish',
-author_email='krishnaik06@gmail.com',
+author='Praveen_Ravva',
+author_email='praveen.ravva61@gmail.com',
 packages=find_packages(),
 install_requires=get_requirements('requirements.txt')
 
